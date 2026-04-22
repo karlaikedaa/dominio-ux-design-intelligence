@@ -1,0 +1,6 @@
+{
+  "name": "dominio-ux-design-intelligence",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite"
+}
