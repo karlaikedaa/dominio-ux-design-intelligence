@@ -1,0 +1,133 @@
+{
+  "versao": "1.0",
+  "categorias": {
+    "funil_conversao": {
+      "descricao": "Rastreia progresso, conclusão, erros e abandono por etapa de tarefa",
+      "eventos": {
+        "task_step_start": {
+          "quando_disparar": "Usuário chega em uma etapa da jornada",
+          "parametros": {
+            "task_id": "string — slug da tarefa (ex: 'lancamento-nf')",
+            "task_name": "string — nome legível (ex: 'Lançamento de NF')",
+            "step_index": "number — número da etapa (começa em 1)",
+            "step_name": "string — slug da etapa (ex: 'dados-nf')",
+            "total_steps": "number — total de etapas",
+            "user_type": "string — tipo de persona (ex: 'operador', 'mono-usuario')"
+          }
+        },
+        "task_step_complete": {
+          "quando_disparar": "Usuário conclui uma etapa com sucesso",
+          "parametros": {
+            "task_id": "string",
+            "step_index": "number",
+            "step_name": "string",
+            "time_on_step_ms": "number — tempo em ms na etapa"
+          }
+        },
+        "task_step_error": {
+          "quando_disparar": "Usuário encontra erro em uma etapa",
+          "parametros": {
+            "task_id": "string",
+            "step_index": "number",
+            "step_name": "string",
+            "error_type": "string — validation | server | timeout | permission | not_found",
+            "error_code": "string — código do erro se disponível",
+            "field_id": "string — campo que gerou o erro, se aplicável"
+          }
+        },
+        "task_abandon": {
+          "quando_disparar": "Usuário abandona a tarefa sem concluir",
+          "parametros": {
+            "task_id": "string",
+            "last_step_index": "number",
+            "last_step_name": "string",
+            "time_on_task_ms": "number",
+            "abandon_reason": "string — se capturável (ex: 'navegou-para-fora', 'fechou-modal')"
+          }
+        },
+        "task_complete": {
+          "quando_disparar": "Usuário conclui a tarefa completa com sucesso",
+          "parametros": {
+            "task_id": "string",
+            "total_time_ms": "number",
+            "error_count": "number — quantos erros ocorreram no caminho",
+            "user_type": "string"
+          }
+        }
+      }
+    },
+    "interacao": {
+      "descricao": "Rastreia cliques, cliques mortos e interações com elementos",
+      "eventos": {
+        "element_click": {
+          "quando_disparar": "Usuário clica em qualquer elemento interativo relevante",
+          "parametros": {
+            "element_id": "string — id único do elemento",
+            "element_type": "string — button | link | tab | icon | dropdown | etc.",
+            "element_label": "string — texto ou rótulo visível",
+            "screen_name": "string — tela atual",
+            "task_id": "string — tarefa em andamento, se houver"
+          }
+        },
+        "dead_click": {
+          "quando_disparar": "Usuário clica em área não interativa",
+          "parametros": {
+            "screen_name": "string",
+            "element_description": "string — descrição do que foi clicado",
+            "coordinates": "object — {x: number, y: number}"
+          }
+        }
+      }
+    },
+    "tempo_e_profundidade": {
+      "descricao": "Rastreia tempo em tela e profundidade de rolagem",
+      "eventos": {
+        "screen_time": {
+          "quando_disparar": "Usuário sai de uma tela",
+          "parametros": {
+            "screen_name": "string",
+            "time_ms": "number",
+            "exit_action": "string — como saiu (navegacao | fechar | timeout | voltar)"
+          }
+        },
+        "scroll_depth": {
+          "quando_disparar": "Usuário atinge marcos de rolagem (25%, 50%, 75%, 100%)",
+          "parametros": {
+            "screen_name": "string",
+            "depth_percentage": "number — 25 | 50 | 75 | 100",
+            "time_to_reach_ms": "number"
+          }
+        }
+      }
+    },
+    "erros": {
+      "descricao": "Rastreia todos os erros exibidos ao usuário",
+      "eventos": {
+        "error_shown": {
+          "quando_disparar": "Qualquer mensagem de erro é exibida ao usuário",
+          "parametros": {
+            "error_type": "string — validation | server | permission | timeout | not_found",
+            "error_message": "string — texto exato da mensagem exibida",
+            "error_code": "string — código técnico se disponível",
+            "screen_name": "string",
+            "field_id": "string — se for erro de campo específico",
+            "task_id": "string — se ocorreu durante tarefa"
+          }
+        }
+      }
+    },
+    "retorno": {
+      "descricao": "Rastreia quando usuário volta a uma tela ou tarefa",
+      "eventos": {
+        "task_return": {
+          "quando_disparar": "Usuário retorna a uma tarefa previamente abandonada",
+          "parametros": {
+            "task_id": "string",
+            "return_count": "number — quantas vezes já retornou",
+            "time_since_abandon_ms": "number"
+          }
+        }
+      }
+    }
+  }
+}

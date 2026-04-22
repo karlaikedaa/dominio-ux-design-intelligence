@@ -1,0 +1,79 @@
+{
+  "versao": "1.0",
+  "componentes": {
+    "button": {
+      "role": "button",
+      "atributos_possiveis": ["aria-label", "aria-disabled", "aria-pressed", "aria-expanded"],
+      "atributo_obrigatorio": "aria-label",
+      "observacao": "Se o texto visível for descritivo, aria-label pode ser omitido. Se for genérico ('Clique aqui', 'OK'), obrigatório."
+    },
+    "input_text": {
+      "role": "textbox",
+      "atributos_possiveis": ["aria-label", "aria-required", "aria-invalid", "aria-describedby"],
+      "atributo_obrigatorio": "aria-label",
+      "observacao": "aria-required='true' para campos obrigatórios. aria-invalid='true' + aria-describedby quando houver erro."
+    },
+    "input_select": {
+      "role": "combobox",
+      "atributos_possiveis": ["aria-label", "aria-required", "aria-expanded", "aria-haspopup"],
+      "atributo_obrigatorio": "aria-label"
+    },
+    "modal": {
+      "role": "dialog",
+      "atributos_possiveis": ["aria-labelledby", "aria-describedby", "aria-modal"],
+      "atributo_obrigatorio": "aria-labelledby",
+      "observacao": "aria-modal='true'. Foco deve ser movido para o modal ao abrir. Ao fechar, retornar foco para o elemento de origem."
+    },
+    "alert_message": {
+      "role": "alert",
+      "atributos_possiveis": ["aria-live", "aria-atomic"],
+      "atributo_obrigatorio": "aria-live",
+      "observacao": "aria-live='assertive' para erros críticos. aria-live='polite' para confirmações e mensagens informativas."
+    },
+    "link": {
+      "role": "link",
+      "atributos_possiveis": ["aria-label", "aria-current"],
+      "atributo_obrigatorio": "aria-label",
+      "observacao": "Se o texto do link não for descritivo fora de contexto ('clique aqui', 'saiba mais'), usar aria-label descritivo."
+    },
+    "checkbox": {
+      "role": "checkbox",
+      "atributos_possiveis": ["aria-label", "aria-checked", "aria-required"],
+      "atributo_obrigatorio": "aria-label"
+    },
+    "tab": {
+      "role": "tab",
+      "atributos_possiveis": ["aria-selected", "aria-controls", "aria-label"],
+      "atributo_obrigatorio": "aria-selected"
+    },
+    "tabpanel": {
+      "role": "tabpanel",
+      "atributos_possiveis": ["aria-labelledby"],
+      "atributo_obrigatorio": "aria-labelledby"
+    },
+    "nav": {
+      "role": "navigation",
+      "atributos_possiveis": ["aria-label"],
+      "atributo_obrigatorio": "aria-label"
+    },
+    "icon_only": {
+      "role": "img",
+      "atributos_possiveis": ["aria-label", "aria-hidden"],
+      "atributo_obrigatorio": "aria-label",
+      "observacao": "Se ícone for apenas decorativo, usar aria-hidden='true' e excluir da tabela."
+    },
+    "stepper_step": {
+      "role": "listitem",
+      "atributos_possiveis": ["aria-current", "aria-label"],
+      "atributo_obrigatorio": "aria-current",
+      "observacao": "aria-current='step' na etapa ativa. O container do stepper deve ter role='list' e aria-label descritivo."
+    },
+    "tooltip": {
+      "role": "tooltip",
+      "atributos_possiveis": ["id"],
+      "atributo_obrigatorio": "id",
+      "observacao": "O elemento que aciona o tooltip deve ter aria-describedby apontando para o id do tooltip."
+    }
+  },
+  "template_tabela_output": "| # | Componente | Role | Atributo ARIA | Valor | Rótulo para Leitor de Tela | Ordem | Obs |"
+}

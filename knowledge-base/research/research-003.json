@@ -1,0 +1,38 @@
+{
+  "id": "research-003",
+  "titulo": "Emissão de NF-e para MEIs — barreiras e simplificação",
+  "tipo": "Survey",
+  "data_realizacao": "2025-02-20",
+  "responsavel": "Time de UX",
+  "personas_envolvidas": ["persona-pme-001", "persona-pme-002"],
+  "modulos_relacionados": ["NF-e"],
+  "problema_investigado": "Mapear barreiras que impedem MEIs de emitir NF-e de forma autônoma sem precisar acionar o contador.",
+  "metodologia": "Survey online com 142 respondentes MEI clientes da Domínio. Perguntas fechadas e abertas sobre frequência de emissão, dificuldades e canal de suporte usado.",
+  "principais_insights": [
+    {
+      "id": "insight-003-01",
+      "descricao": "58% dos MEIs acionam o contador para emitir NF-e 'quando têm dúvida no CFOP'",
+      "severidade": "alto",
+      "evidencia": "Campo aberto: 'nunca sei qual código colocar, aí ligo pro contador'"
+    },
+    {
+      "id": "insight-003-02",
+      "descricao": "MEIs com baixo letramento digital (perfil Maria das Graças) abandonam o fluxo na etapa de certificado digital",
+      "severidade": "crítico",
+      "evidencia": "34% dos respondentes 'baixo digital' reportaram parar nessa etapa"
+    },
+    {
+      "id": "insight-003-03",
+      "descricao": "MEIs digitais (perfil Bruno Takahashi) querem emissão em lote e via API",
+      "severidade": "médio",
+      "evidencia": "Pedido espontâneo em 22% das respostas abertas do grupo digital"
+    }
+  ],
+  "recomendacoes": [
+    "Criar assistente de CFOP com busca por descrição da atividade (não pelo código)",
+    "Simplificar o fluxo de certificado digital com guia passo-a-passo e detecção automática",
+    "Criar modo de emissão em lote para MEIs digitais com integração por planilha ou API"
+  ],
+  "artefatos": [],
+  "status": "ativa"
+}

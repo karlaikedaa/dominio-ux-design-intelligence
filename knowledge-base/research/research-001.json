@@ -1,0 +1,45 @@
+{
+  "id": "research-001",
+  "titulo": "Dificuldades no fluxo de Escrita Fiscal",
+  "tipo": "Teste de usabilidade",
+  "data_realizacao": "2024-11-10",
+  "responsavel": "Time de UX",
+  "personas_envolvidas": ["persona-contabil-001", "persona-contabil-002"],
+  "modulos_relacionados": ["Escrita Fiscal"],
+  "problema_investigado": "Identificar pontos de atrito no fluxo de lançamento de notas fiscais e entender por que a taxa de erro nessa etapa é alta.",
+  "metodologia": "Teste de usabilidade moderado remoto com 6 participantes. Tarefas: lançar NF de entrada, corrigir erro de CFOP, consultar histórico.",
+  "principais_insights": [
+    {
+      "id": "insight-001-01",
+      "descricao": "100% dos participantes não entenderam a mensagem de erro ao inserir CFOP inválido",
+      "severidade": "crítico",
+      "evidencia": "Todos pararam na tela de erro e tentaram fechar o sistema"
+    },
+    {
+      "id": "insight-001-02",
+      "descricao": "O fluxo de lançamento exige 12 cliques para uma tarefa que usuários esperam fazer em 4-5",
+      "severidade": "alto",
+      "evidencia": "Média de 12,3 cliques registrada; usuários verbalizaram frustração explícita"
+    },
+    {
+      "id": "insight-001-03",
+      "descricao": "Usuários não percebem o indicador de status da NF na cor atual",
+      "severidade": "médio",
+      "evidencia": "4 de 6 participantes não identificaram que a NF estava com pendência"
+    },
+    {
+      "id": "insight-001-04",
+      "descricao": "Nenhum participante usou o botão de ajuda contextual disponível na tela",
+      "severidade": "médio",
+      "evidencia": "Botão de ajuda tem baixo contraste e está posicionado fora da área de foco"
+    }
+  ],
+  "recomendacoes": [
+    "Reescrever mensagens de erro de CFOP com linguagem clara e indicação do valor correto",
+    "Reduzir fluxo de lançamento com campos inteligentes e preenchimento automático por histórico",
+    "Aumentar contraste e tamanho do indicador de status da NF",
+    "Repositionar e redesenhar o botão de ajuda contextual"
+  ],
+  "artefatos": [],
+  "status": "ativa"
+}

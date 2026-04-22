@@ -1,0 +1,42 @@
+{
+  "ultima_atualizacao": "2026-03-30",
+  "total_pesquisas": 3,
+  "pesquisas": [
+    {
+      "id": "research-001",
+      "arquivo": "research-001.json",
+      "titulo": "Dificuldades no fluxo de Escrita Fiscal",
+      "tipo": "Teste de usabilidade",
+      "data": "2024-11-10",
+      "personas_envolvidas": ["persona-contabil-001", "persona-contabil-002"],
+      "modulos_relacionados": ["Escrita Fiscal"],
+      "problema_investigado": "Identificar pontos de atrito no fluxo de lançamento de notas fiscais",
+      "tags": ["escrita fiscal", "erros", "fluxo", "operador", "lançamento NF"],
+      "status": "ativa"
+    },
+    {
+      "id": "research-002",
+      "arquivo": "research-002.json",
+      "titulo": "Experiência de acesso ao holerite no app Para Você",
+      "tipo": "Entrevista",
+      "data": "2024-09-05",
+      "personas_envolvidas": ["persona-empregado-001"],
+      "modulos_relacionados": ["Para Você", "Holerite"],
+      "problema_investigado": "Entender dificuldades do colaborador CLT ao acessar documentos de RH pelo aplicativo",
+      "tags": ["holerite", "para você", "mobile", "colaborador", "acesso"],
+      "status": "ativa"
+    },
+    {
+      "id": "research-003",
+      "arquivo": "research-003.json",
+      "titulo": "Emissão de NF-e para MEIs — barreiras e simplificação",
+      "tipo": "Survey",
+      "data": "2025-02-20",
+      "personas_envolvidas": ["persona-pme-001", "persona-pme-002"],
+      "modulos_relacionados": ["NF-e"],
+      "problema_investigado": "Mapear barreiras que impedem MEIs de emitir NF-e de forma autônoma",
+      "tags": ["NF-e", "MEI", "emissão", "simplificação", "autônomo"],
+      "status": "ativa"
+    }
+  ]
+}

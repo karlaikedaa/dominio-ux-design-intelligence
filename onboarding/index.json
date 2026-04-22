@@ -1,0 +1,164 @@
+{
+  "ultima_atualizacao": "2026-03-30",
+  "blocos": [
+    {
+      "id": "bem-vindo",
+      "titulo": "Bem-vindo ao time de UX",
+      "icone": "Sparkles",
+      "secoes": [
+        {
+          "id": "missao",
+          "titulo": "Nossa missão",
+          "conteudo": "O time de UX da Domínio Sistemas existe para garantir que produtos contábeis e fiscais complexos sejam simples, eficientes e acessíveis para todos os seus usuários — desde o contador operacional até o MEI que emite sua primeira nota fiscal.",
+          "atualizado_em": "2026-03-30"
+        },
+        {
+          "id": "estrutura-time",
+          "titulo": "Estrutura do time",
+          "conteudo": "O time de UX é composto por designers de produto, researchers e um UX writer. Cada designer é alocado por domínio de produto (Contábil, Fiscal, Para Você). O time se reúne semanalmente para alinhamento e revisão de entregas.",
+          "itens": [
+            "Designers de produto: responsáveis por discovery, wireframes e especificações",
+            "UX Research: conduz pesquisas qualitativas e quantitativas",
+            "UX Writer: padroniza linguagem e revisa textos de interface",
+            "Design System: mantém e evolui o sistema de componentes"
+          ],
+          "atualizado_em": "2026-03-30"
+        },
+        {
+          "id": "ferramentas",
+          "titulo": "Ferramentas e acessos",
+          "conteudo": "Solicite os acessos abaixo ao entrar no time. Em caso de dúvida, peça ao tech lead ou ao gestor direto.",
+          "itens": [
+            "Figma — design e prototipagem (solicitar acesso à organização Domínio)",
+            "Jira — gestão de tarefas e sprints",
+            "Confluence — documentação de processos",
+            "Microsoft Loop — repositório de pesquisas (em migração para esta plataforma)",
+            "Hotjar — análise de comportamento do usuário",
+            "UserTesting — recrutamento de participantes para pesquisas"
+          ],
+          "atualizado_em": "2026-03-30"
+        }
+      ]
+    },
+    {
+      "id": "processos",
+      "titulo": "Processos de Design",
+      "icone": "GitBranch",
+      "secoes": [
+        {
+          "id": "discovery",
+          "titulo": "Processo de Discovery",
+          "conteudo": "O discovery acontece antes de qualquer wireframe. O objetivo é entender o problema antes de pensar em solução.",
+          "etapas": [
+            {"nome": "Briefing com PO", "entregavel": "Documento de contexto da demanda", "responsavel": "Designer + PO"},
+            {"nome": "Pesquisa exploratória", "entregavel": "Síntese de pesquisa existente no repositório", "responsavel": "Designer"},
+            {"nome": "Entrevistas (se necessário)", "entregavel": "Relatório de insights", "responsavel": "Researcher + Designer"},
+            {"nome": "Definição do problema", "entregavel": "Problem statement validado", "responsavel": "Designer + PO"},
+            {"nome": "Brainstorm de soluções", "entregavel": "Artefato de brainstorm (esta plataforma)", "responsavel": "Designer"}
+          ],
+          "atualizado_em": "2026-03-30"
+        },
+        {
+          "id": "delivery",
+          "titulo": "Processo de Delivery",
+          "conteudo": "O delivery transforma o problema validado em especificação pronta para desenvolvimento.",
+          "etapas": [
+            {"nome": "Wireframes de baixa fidelidade", "entregavel": "Wireframes no Figma", "responsavel": "Designer"},
+            {"nome": "Revisão com PO e tech lead", "entregavel": "Lista de ajustes", "responsavel": "Designer + PO + Tech"},
+            {"nome": "Design de alta fidelidade", "entregavel": "Telas finais no Figma", "responsavel": "Designer"},
+            {"nome": "Verificação UX Writing", "entregavel": "Relatório de conformidade (esta plataforma)", "responsavel": "Designer + UX Writer"},
+            {"nome": "Spec de acessibilidade", "entregavel": "Tabela ARIA (esta plataforma)", "responsavel": "Designer"},
+            {"nome": "Spec de dados/analytics", "entregavel": "Especificação de eventos (esta plataforma)", "responsavel": "Designer"},
+            {"nome": "Handoff para dev", "entregavel": "Link Figma com specs + documentos gerados", "responsavel": "Designer"}
+          ],
+          "atualizado_em": "2026-03-30"
+        },
+        {
+          "id": "validacao",
+          "titulo": "Processo de Validação",
+          "conteudo": "Validação acontece antes e depois do desenvolvimento.",
+          "etapas": [
+            {"nome": "Teste de usabilidade (pré-dev)", "entregavel": "Relatório de teste com protótipo", "responsavel": "Researcher"},
+            {"nome": "Revisão de implementação", "entregavel": "Lista de discrepâncias design/dev", "responsavel": "Designer"},
+            {"nome": "Acompanhamento de métricas (pós-lançamento)", "entregavel": "Dashboard de analytics", "responsavel": "Designer + Analytics"}
+          ],
+          "atualizado_em": "2026-03-30"
+        }
+      ]
+    },
+    {
+      "id": "contexto",
+      "titulo": "Contexto da Empresa",
+      "icone": "Building2",
+      "secoes": [
+        {
+          "id": "visao-produto",
+          "titulo": "Visão geral do produto",
+          "conteudo": "Domínio Sistemas é um software de gestão contábil, fiscal e de RH voltado para escritórios contábeis e seus clientes (PMEs e MEIs). O produto é usado diariamente por contadores, empresários e colaboradores CLT em todo o Brasil.",
+          "atualizado_em": "2026-03-30"
+        },
+        {
+          "id": "segmentos",
+          "titulo": "Segmentos atendidos",
+          "itens": [
+            "Contábil — escritórios de contabilidade e seus contadores (operadores, gerentes, sócios)",
+            "PME/MEI — pequenas e médias empresas clientes dos escritórios (emitem NF-e, consultam relatórios)",
+            "Empregado (Para Você) — colaboradores CLT que acessam holerite, férias e benefícios"
+          ],
+          "atualizado_em": "2026-03-30"
+        },
+        {
+          "id": "glossario",
+          "titulo": "Glossário de termos",
+          "termos": [
+            {"termo": "CFOP", "definicao": "Código Fiscal de Operações e Prestações — classifica o tipo de operação fiscal de uma NF"},
+            {"termo": "NF-e", "definicao": "Nota Fiscal Eletrônica — documento fiscal digital emitido por empresas"},
+            {"termo": "SPED", "definicao": "Sistema Público de Escrituração Digital — plataforma do governo para envio de obrigações fiscais"},
+            {"termo": "ECD", "definicao": "Escrituração Contábil Digital — obrigação acessória de entrega da contabilidade ao Fisco"},
+            {"termo": "ECF", "definicao": "Escrituração Contábil Fiscal — apuração do Imposto de Renda Pessoa Jurídica"},
+            {"termo": "LALUR", "definicao": "Livro de Apuração do Lucro Real — livro fiscal para empresas do Lucro Real"},
+            {"termo": "MEI", "definicao": "Microempreendedor Individual — regime simplificado para autônomos com faturamento até R$81k/ano"},
+            {"termo": "Escritório contábil", "definicao": "Empresa de prestação de serviços contábeis — é o cliente direto do Domínio, que atende PMEs e MEIs"},
+            {"termo": "Mono usuário", "definicao": "Contador que trabalha sozinho, sem equipe — perfil de uso diferente do operador em equipe"},
+            {"termo": "Holerite", "definicao": "Contracheque — documento mensal com demonstrativo de salário, descontos e benefícios do colaborador"}
+          ],
+          "atualizado_em": "2026-03-30"
+        }
+      ]
+    },
+    {
+      "id": "guias",
+      "titulo": "Guias e Referências",
+      "icone": "BookOpen",
+      "secoes": [
+        {
+          "id": "links-uteis",
+          "titulo": "Links úteis",
+          "links": [
+            {"nome": "Design System Domínio", "url": "#", "descricao": "Biblioteca de componentes no Figma"},
+            {"nome": "Guia de UX Writing", "url": "#", "descricao": "Regras de linguagem, tom e voz"},
+            {"nome": "Template de spec de acessibilidade", "url": "#", "descricao": "Modelo para especificação ARIA"},
+            {"nome": "Template de spec de dados", "url": "#", "descricao": "Modelo para especificação de analytics"},
+            {"nome": "Checklist de qualidade de design", "url": "#", "descricao": "Critérios de aprovação antes do handoff"}
+          ],
+          "atualizado_em": "2026-03-30"
+        },
+        {
+          "id": "checklist",
+          "titulo": "Checklist de qualidade antes do handoff",
+          "itens": [
+            "Verificação de UX Writing realizada e issues críticos resolvidos",
+            "Spec de acessibilidade gerada para todas as telas novas",
+            "Spec de dados gerada se a feature tiver novos eventos",
+            "Telas de estado vazio, erro e loading especificadas",
+            "Fluxo mobile e desktop revisados",
+            "Componentes do Design System utilizados (sem criar do zero quando existe no DS)",
+            "Handoff no Figma com todas as medidas e tokens especificados",
+            "Link da pesquisa de referência documentado na task do Jira"
+          ],
+          "atualizado_em": "2026-03-30"
+        }
+      ]
+    }
+  ]
+}

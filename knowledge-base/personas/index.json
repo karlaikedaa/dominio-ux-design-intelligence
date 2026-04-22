@@ -1,0 +1,93 @@
+{
+  "ultima_atualizacao": "2026-03-30",
+  "total_personas": 9,
+  "segmentos": {
+    "contabil": {
+      "descricao": "Contadores e operadores de escritórios contábeis",
+      "personas": [
+        {
+          "id": "persona-contabil-001",
+          "arquivo": "contabil/juliana-santos.json",
+          "nome": "Juliana Santos",
+          "tipo": "Operador",
+          "modulos": ["Escrita Fiscal", "Contabilidade", "Folha", "Patrimônio", "Lalur"],
+          "resumo_curto": "Contadora operacional, foco em eficiência e clareza"
+        },
+        {
+          "id": "persona-contabil-002",
+          "arquivo": "contabil/ricardo-mendes.json",
+          "nome": "Ricardo Mendes",
+          "tipo": "Mono usuário",
+          "modulos": ["Escrita Fiscal", "Contabilidade", "Folha"],
+          "resumo_curto": "Contador autônomo, trabalha sozinho, foco em agilidade"
+        },
+        {
+          "id": "persona-contabil-003",
+          "arquivo": "contabil/thiago-carvalho.json",
+          "nome": "Thiago Carvalho",
+          "tipo": "Gerente contábil",
+          "modulos": ["Contabilidade", "Folha", "Fiscal", "BI"],
+          "resumo_curto": "Gerente de departamento contábil, foco em visão estratégica e gestão de equipe"
+        },
+        {
+          "id": "persona-contabil-004",
+          "arquivo": "contabil/fernanda-oliveira.json",
+          "nome": "Fernanda Oliveira",
+          "tipo": "Sócia-diretora",
+          "modulos": ["Contabilidade", "Gestão", "Relatórios"],
+          "resumo_curto": "Dona de escritório contábil, foco em crescimento e rentabilidade"
+        }
+      ]
+    },
+    "pme": {
+      "descricao": "Usuários de pequenas e médias empresas (clientes dos escritórios contábeis)",
+      "personas": [
+        {
+          "id": "persona-pme-001",
+          "arquivo": "pme/bruno-takahashi.json",
+          "nome": "Bruno Takahashi",
+          "tipo": "MEI digital",
+          "modulos": ["NF-e", "Financeiro", "Relatórios"],
+          "resumo_curto": "MEI com loja virtual, alto letramento digital, busca automação"
+        },
+        {
+          "id": "persona-pme-002",
+          "arquivo": "pme/maria-gracas.json",
+          "nome": "Maria das Graças",
+          "tipo": "MEI analógica",
+          "modulos": ["NF-e"],
+          "resumo_curto": "MEI com salão de beleza, baixo letramento digital, precisa de simplicidade"
+        },
+        {
+          "id": "persona-pme-003",
+          "arquivo": "pme/alexandre-freitas.json",
+          "nome": "Alexandre Freitas",
+          "tipo": "PME - Distribuidora",
+          "modulos": ["NF-e", "Estoque", "Financeiro", "Folha"],
+          "resumo_curto": "Empresário de distribuidora, foco em controle e crescimento"
+        },
+        {
+          "id": "persona-pme-004",
+          "arquivo": "pme/camila-rodrigues.json",
+          "nome": "Camila Rodrigues",
+          "tipo": "PME - Clínicas",
+          "modulos": ["NF-e", "Folha", "Financeiro", "Compliance"],
+          "resumo_curto": "Gestora de rede de clínicas, alta exigência de conformidade e relatórios"
+        }
+      ]
+    },
+    "empregado": {
+      "descricao": "Colaboradores CLT que usam o módulo Para Você (holerite, férias, benefícios)",
+      "personas": [
+        {
+          "id": "persona-empregado-001",
+          "arquivo": "empregado/marcos-aurelio.json",
+          "nome": "Marcos Aurélio Silva",
+          "tipo": "CLT operacional",
+          "modulos": ["Para Você", "Holerite", "Férias", "Benefícios"],
+          "resumo_curto": "Funcionário CLT, acessa holerite e férias, baixa frequência de uso"
+        }
+      ]
+    }
+  }
+}

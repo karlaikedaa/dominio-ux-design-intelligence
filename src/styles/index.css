@@ -1,0 +1,58 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Markdown content styles */
+.markdown-content {
+  color: var(--foreground);
+  line-height: 1.6;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4 {
+  scroll-margin-top: 6rem;
+}
+
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.markdown-content table tbody tr:hover td {
+  background-color: rgba(214, 64, 0, 0.03);
+}
+
+.markdown-content code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.markdown-content pre {
+  overflow-x: auto;
+}
+
+/* Remove default list styles to use custom ones */
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 0;
+}
+
+.markdown-content ul li::marker {
+  color: var(--primary);
+  font-size: 0.7em;
+}
+
+.markdown-content ol li::marker {
+  color: var(--primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Nested lists */
+.markdown-content ul ul,
+.markdown-content ol ul,
+.markdown-content ul ol,
+.markdown-content ol ol {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}

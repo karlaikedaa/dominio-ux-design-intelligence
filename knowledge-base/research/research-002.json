@@ -1,0 +1,38 @@
+{
+  "id": "research-002",
+  "titulo": "Experiência de acesso ao holerite no app Para Você",
+  "tipo": "Entrevista",
+  "data_realizacao": "2024-09-05",
+  "responsavel": "Time de UX",
+  "personas_envolvidas": ["persona-empregado-001"],
+  "modulos_relacionados": ["Para Você", "Holerite"],
+  "problema_investigado": "Entender dificuldades do colaborador CLT ao acessar documentos de RH pelo aplicativo Para Você.",
+  "metodologia": "Entrevistas em profundidade com 8 colaboradores CLT de empresas clientes. Roteiro semi-estruturado sobre experiência de acesso ao holerite, férias e benefícios.",
+  "principais_insights": [
+    {
+      "id": "insight-002-01",
+      "descricao": "62% dos entrevistados ainda pedem o holerite impresso ao RH mesmo tendo acesso ao app",
+      "severidade": "alto",
+      "evidencia": "Motivo principal: 'não sei se está certo o que aparece na tela' — falta de confiança no digital"
+    },
+    {
+      "id": "insight-002-02",
+      "descricao": "O processo de primeiro acesso ao app tem taxa de abandono de ~40% por senha temporária difícil",
+      "severidade": "crítico",
+      "evidencia": "5 de 8 entrevistados relataram dificuldade com a senha temporária no primeiro acesso"
+    },
+    {
+      "id": "insight-002-03",
+      "descricao": "Colaboradores não sabem que podem solicitar férias e adiantamento pelo app",
+      "severidade": "médio",
+      "evidencia": "7 de 8 entrevistados desconheciam essas funcionalidades"
+    }
+  ],
+  "recomendacoes": [
+    "Simplificar o fluxo de primeiro acesso com link mágico ou código SMS",
+    "Adicionar indicadores visuais de confiança no holerite (ex: 'Documento oficial gerado em...')",
+    "Criar onboarding ativo para novas funcionalidades do app"
+  ],
+  "artefatos": [],
+  "status": "ativa"
+}

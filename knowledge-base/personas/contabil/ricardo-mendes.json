@@ -1,0 +1,69 @@
+{
+  "id": "persona-contabil-002",
+  "segmento": "contabil",
+  "tipo": "Mono usuário",
+  "nome": "Ricardo Mendes",
+  "idade": 43,
+  "cargo": "Contador e sócio-proprietário",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "resumo": "Trabalha sozinho e precisa de agilidade para atender múltiplos clientes sem equipe de apoio.",
+  "modulos_mais_utilizados": ["Escrita Fiscal", "Contabilidade", "Folha"],
+  "perfil": {
+    "caracteristicas_demograficas": [
+      "43 anos, casado",
+      "Graduação em Ciências Contábeis com especialização",
+      "15 anos de experiência, sendo 8 como autônomo",
+      "Renda mensal: R$ 8.000 - R$ 15.000"
+    ],
+    "frases_tipicas": [
+      "Eu não tenho tempo de aprender funcionalidade nova agora, tenho cliente esperando.",
+      "Se eu pudesse resolver tudo em uma tela só, seria perfeito."
+    ],
+    "nivel_tecnologico": "básico-intermediário",
+    "dispositivos": ["desktop"],
+    "contexto_trabalho": "Home office ou escritório próprio pequeno. Sem equipe. Acumula funções administrativas e técnicas."
+  },
+  "contexto_e_comportamento": {
+    "rotina": "Atende múltiplos clientes de pequeno porte. Faz tudo sozinho: desde o lançamento até a entrega de obrigações. Tempo é seu recurso mais escasso.",
+    "como_usa_o_sistema": "Usa o sistema de forma pragmática. Aprendeu os caminhos que precisa e raramente explora funcionalidades novas. Resiste a mudanças de interface.",
+    "gatilhos_de_uso": ["Demanda de cliente", "Prazo de obrigação", "Necessidade de emitir relatório"],
+    "frequencia_de_uso": "diária",
+    "padrao_de_navegacao": "habitual — segue sempre os mesmos caminhos, qualquer desvio causa frustração"
+  },
+  "dores_e_objetivos": {
+    "principais_dores": [
+      {"severidade": "critica", "texto": "Mudanças de interface que quebram fluxos memorizados"},
+      {"severidade": "alta", "texto": "Funcionalidades novas sem onboarding contextual"},
+      {"severidade": "alta", "texto": "Necessidade de navegar entre muitas telas para uma única tarefa"},
+      {"severidade": "media", "texto": "Falta de visão consolidada de todos os clientes"},
+      {"severidade": "media", "texto": "Suporte difícil de acessar quando tem dúvida"}
+    ],
+    "objetivos": [
+      "Atender mais clientes sem aumentar horas trabalhadas",
+      "Ter controle total do negócio sem depender de terceiros",
+      "Manter a reputação de confiabilidade com os clientes"
+    ],
+    "medos": [
+      "Perder cliente por erro ou atraso",
+      "Não conseguir acompanhar mudanças regulatórias",
+      "Ficar dependente de suporte para tarefas básicas"
+    ]
+  },
+  "como_podemos_ajudar": {
+    "oportunidades": [
+      "Criar visão multi-cliente consolidada (dashboard)",
+      "Oferecer onboarding contextual não-intrusivo para funcionalidades novas",
+      "Garantir retrocompatibilidade de fluxos em atualizações",
+      "Simplificar tarefas que hoje exigem múltiplas telas",
+      "Canal de suporte rápido integrado ao sistema"
+    ],
+    "tom_de_comunicacao": "Respeitoso, sem ser condescendente. Valoriza a experiência dele. Comunicação concisa.",
+    "padroes_de_interface_preferidos": [
+      "Consistência — não mudar o que já funciona",
+      "Dashboard consolidado",
+      "Atalhos para tarefas mais frequentes",
+      "Ajuda contextual discreta"
+    ]
+  }
+}

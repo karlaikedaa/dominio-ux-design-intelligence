@@ -1,0 +1,70 @@
+{
+  "id": "persona-contabil-001",
+  "segmento": "contabil",
+  "tipo": "Operador",
+  "nome": "Juliana Santos",
+  "idade": 28,
+  "cargo": "Contadora operacional",
+  "cidade": "Porto Alegre",
+  "estado": "RS",
+  "resumo": "Executa as obrigações contábeis diárias, busca eficiência e clareza nos processos do sistema.",
+  "modulos_mais_utilizados": ["Escrita Fiscal", "Contabilidade", "Folha", "Patrimônio", "Lalur"],
+  "perfil": {
+    "caracteristicas_demograficas": [
+      "28 anos, solteira",
+      "Graduação em Ciências Contábeis",
+      "4 anos de experiência em escritório contábil",
+      "Renda mensal: R$ 3.500 - R$ 5.000"
+    ],
+    "frases_tipicas": [
+      "São tantos cliques pra fazer uma coisa simples que dá vontade de desistir.",
+      "Quando aparece um erro, eu nunca sei o que fazer com aquela mensagem."
+    ],
+    "nivel_tecnologico": "intermediário",
+    "dispositivos": ["desktop", "notebook"],
+    "contexto_trabalho": "Escritório contábil com múltiplos clientes, rotina de alta demanda em períodos fiscais"
+  },
+  "contexto_e_comportamento": {
+    "rotina": "Processa obrigações fiscais diariamente para múltiplos clientes do escritório. Segue calendário fiscal rígido com prazos definidos por órgãos reguladores.",
+    "como_usa_o_sistema": "Acessa o sistema várias vezes ao dia. Navega entre módulos diferentes para completar uma única tarefa. Prefere atalhos e fluxos rápidos.",
+    "gatilhos_de_uso": ["Vencimento de obrigações fiscais", "Solicitação de cliente", "Fechamento mensal"],
+    "frequencia_de_uso": "diária",
+    "padrao_de_navegacao": "task-oriented — entra com objetivo definido, quer concluir rápido"
+  },
+  "dores_e_objetivos": {
+    "principais_dores": [
+      {"severidade": "critica", "texto": "Mensagens de erro pouco claras, sem orientação de resolução"},
+      {"severidade": "alta", "texto": "Excesso de cliques para tarefas simples e repetitivas"},
+      {"severidade": "alta", "texto": "Falta de atalhos para tarefas frequentes"},
+      {"severidade": "media", "texto": "Retrabalho por falta de validação antecipada de dados"},
+      {"severidade": "media", "texto": "Dificuldade em saber o status de uma obrigação em andamento"}
+    ],
+    "objetivos": [
+      "Finalizar as obrigações do dia dentro do horário",
+      "Não cometer erros que gerem retrabalho",
+      "Ter clareza sobre o que precisa ser feito e o que já foi feito",
+      "Ser reconhecida pela eficiência no trabalho"
+    ],
+    "medos": [
+      "Perder prazo de obrigação fiscal",
+      "Enviar informação errada ao Fisco",
+      "Não conseguir resolver um erro sozinha"
+    ]
+  },
+  "como_podemos_ajudar": {
+    "oportunidades": [
+      "Reduzir número de cliques em fluxos repetitivos com atalhos ou automações",
+      "Melhorar mensagens de erro com linguagem clara e orientação de ação",
+      "Criar indicadores visuais de progresso para obrigações em andamento",
+      "Antecipar validações para evitar erros no envio",
+      "Oferecer visão consolidada do calendário de obrigações"
+    ],
+    "tom_de_comunicacao": "Direto, objetivo, sem jargão técnico desnecessário. Confirmações claras de ação realizada.",
+    "padroes_de_interface_preferidos": [
+      "Fluxos lineares com progresso visível",
+      "Feedback imediato de ação",
+      "Atalhos para tarefas frequentes",
+      "Mensagens de erro acionáveis"
+    ]
+  }
+}
